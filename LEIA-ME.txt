@@ -1,0 +1,21 @@
+PIXEL GALLERY — SITE INICIAL
+
+Este pacote contém um site estático responsivo, com visual artístico e sofisticado.
+
+ARQUIVOS
+- index.html: páginas e conteúdo da vitrine
+- styles.css: identidade visual e layout
+- script.js: filtros, idioma PT/EN e consultas de obras
+
+ANTES DE PUBLICAR
+1. Abra index.html e substitua SEU_EMAIL_AQUI pelo e-mail comercial da Pixel Gallery (em dois locais).
+2. Substitua as três imagens de demonstração em CSS por fotografias suas ou obras de IA que você tenha direito de comercializar. Os blocos atuais são ilustrações abstratas feitas em CSS, não fotografias à venda.
+3. Atualize títulos, códigos, categorias, preços e licenças para corresponder às obras reais.
+4. Não publique arquivos originais em alta resolução. Use prévias com marca d'água na vitrine e entregue o original apenas após a venda.
+5. Confirme direitos autorais, permissões de pessoas/marcas/locais e termos das ferramentas de IA antes de comercializar.
+
+PUBLICAÇÃO GRATUITA
+O site pode ser publicado gratuitamente no Cloudflare Pages ou GitHub Pages. Para facilitar atualizações, recomendamos conectar um repositório GitHub ao Cloudflare Pages. No Cloudflare Pages, use implantação por Git, escolha o repositório e deixe o comando de build em branco; diretório de saída: / (raiz).
+
+IMPORTANTE SOBRE VENDAS
+Esta versão é uma vitrine com consulta por e-mail, não um checkout. Ela não processa pagamentos nem entrega arquivos automaticamente. Isso pode ser integrado depois com um meio de pagamento e fluxo de entrega apropriado.

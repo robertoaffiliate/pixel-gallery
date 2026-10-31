@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Pixel Gallery — fotografia digital e arte visual para colecionar, decorar e licenciar.">
+  <meta name="theme-color" content="#171719">
+  <title>Pixel Gallery — Digital Photography & Art</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="#home" aria-label="Pixel Gallery início">
+      <span class="brand-mark">P<span>G</span></span>
+      <span class="brand-name">PIXEL <i>GALLERY</i><small>DIGITAL PHOTOGRAPHY & ART</small></span>
+    </a>
+    <nav aria-label="Navegação principal">
+      <a href="#gallery" data-pt="Galeria" data-en="Gallery">Galeria</a>
+      <a href="#about" data-pt="Sobre" data-en="About">Sobre</a>
+      <a href="#licensing" data-pt="Licenças" data-en="Licensing">Licenças</a>
+      <a href="#contact" data-pt="Contato" data-en="Contact">Contato</a>
+    </nav>
+    <button class="language" id="languageBtn" type="button" aria-label="Mudar idioma">EN</button>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-copy">
+        <p class="eyebrow" data-pt="GALERIA DE ARTE DIGITAL" data-en="DIGITAL ART GALLERY">GALERIA DE ARTE DIGITAL</p>
+        <h1 data-pt="Onde a arte encontra o olhar." data-en="Where art meets the lens.">Onde a arte encontra o olhar.</h1>
+        <p class="hero-text" data-pt="Fotografias autorais e criações digitais selecionadas para inspirar, decorar e contar histórias." data-en="Original photography and curated digital creations to inspire, decorate and tell stories.">Fotografias autorais e criações digitais selecionadas para inspirar, decorar e contar histórias.</p>
+        <a class="button" href="#gallery" data-pt="Explorar a galeria" data-en="Explore the gallery">Explorar a galeria</a>
+      </div>
+      <div class="hero-art" role="img" aria-label="Composição abstrata artística em tons dourados">
+        <div class="sun"></div><div class="arch arch-one"></div><div class="arch arch-two"></div>
+        <div class="hero-caption">COLLECTION Nº 001 <span>—</span> VISUAL STORIES</div>
+      </div>
+    </section>
+
+    <section class="intro" id="about">
+      <p class="eyebrow" data-pt="A NOSSA VISÃO" data-en="OUR VISION">A NOSSA VISÃO</p>
+      <h2 data-pt="Imagens que despertam<br>sensações e memórias." data-en="Images that awaken<br>feelings and memories.">Imagens que despertam<br>sensações e memórias.</h2>
+      <p data-pt="A Pixel Gallery reúne fotografia autoral e arte digital criada com ferramentas de inteligência artificial. Cada obra será apresentada com informações claras sobre sua origem, qualidade e licença de uso." data-en="Pixel Gallery brings together original photography and digital art created with AI tools. Each work is presented with clear information about its origin, quality and usage license.">A Pixel Gallery reúne fotografia autoral e arte digital criada com ferramentas de inteligência artificial. Cada obra será apresentada com informações claras sobre sua origem, qualidade e licença de uso.</p>
+    </section>
+
+    <section class="gallery-section" id="gallery">
+      <div class="section-heading">
+        <div><p class="eyebrow" data-pt="SELEÇÃO CURADA" data-en="CURATED SELECTION">SELEÇÃO CURADA</p><h2 data-pt="A galeria" data-en="The gallery">A galeria</h2></div>
+        <div class="filters" role="group" aria-label="Filtrar obras">
+          <button class="filter active" data-filter="all" data-pt="Todas" data-en="All">Todas</button>
+          <button class="filter" data-filter="photo" data-pt="Fotografia" data-en="Photography">Fotografia</button>
+          <button class="filter" data-filter="ai" data-pt="AI Art" data-en="AI Art">AI Art</button>
+        </div>
+      </div>
+      <div class="art-grid" id="artGrid">
+        <article class="art-card" data-category="photo">
+          <div class="art-image sample landscape"><span>PHOTO<br>01</span></div>
+          <div class="art-info"><div><h3>Horizonte dourado</h3><p data-pt="Fotografia autoral · Paisagem" data-en="Original photography · Landscape">Fotografia autoral · Paisagem</p></div><strong>PG-001</strong></div>
+          <button class="details" data-item="Horizonte dourado" data-type="Fotografia autoral" data-code="PG-001" data-pt="Consultar disponibilidade" data-en="Enquire about availability">Consultar disponibilidade</button>
+        </article>
+        <article class="art-card" data-category="ai">
+          <div class="art-image sample surreal"><span>AI<br>02</span></div>
+          <div class="art-info"><div><h3>Além do silêncio</h3><p data-pt="Arte digital com IA · Conceitual" data-en="AI digital art · Conceptual">Arte digital com IA · Conceitual</p></div><strong>PG-002</strong></div>
+          <button class="details" data-item="Além do silêncio" data-type="Arte digital com IA" data-code="PG-002" data-pt="Consultar disponibilidade" data-en="Enquire about availability">Consultar disponibilidade</button>
+        </article>
+        <article class="art-card" data-category="photo">
+          <div class="art-image sample architecture"><span>PHOTO<br>03</span></div>
+          <div class="art-info"><div><h3>Geometria da luz</h3><p data-pt="Fotografia autoral · Arquitetura" data-en="Original photography · Architecture">Fotografia autoral · Arquitetura</p></div><strong>PG-003</strong></div>
+          <button class="details" data-item="Geometria da luz" data-type="Fotografia autoral" data-code="PG-003" data-pt="Consultar disponibilidade" data-en="Enquire about availability">Consultar disponibilidade</button>
+        </article>
+      </div>
+      <p class="catalog-note" data-pt="Esta é uma prévia de demonstração. Substitua as imagens e os dados pelos seus trabalhos antes de divulgar a loja." data-en="This is a demo preview. Replace the images and details with your own work before promoting the store.">Esta é uma prévia de demonstração. Substitua as imagens e os dados pelos seus trabalhos antes de divulgar a loja.</p>
+    </section>
+
+    <section class="licensing" id="licensing">
+      <p class="eyebrow" data-pt="COMPRA COM TRANSPARÊNCIA" data-en="BUY WITH CONFIDENCE">COMPRA COM TRANSPARÊNCIA</p>
+      <h2 data-pt="Uma imagem. A licença certa." data-en="One image. The right license.">Uma imagem. A licença certa.</h2>
+      <div class="license-grid">
+        <div><span>01</span><h3 data-pt="Uso pessoal" data-en="Personal use">Uso pessoal</h3><p data-pt="Para decoração, projetos pessoais e uso privado, conforme os termos de cada obra." data-en="For decoration, personal projects and private use, subject to each work's terms.">Para decoração, projetos pessoais e uso privado, conforme os termos de cada obra.</p></div>
+        <div><span>02</span><h3 data-pt="Uso comercial" data-en="Commercial use">Uso comercial</h3><p data-pt="Para projetos de negócios, publicidade e materiais comerciais, mediante licença específica." data-en="For business projects, advertising and commercial materials, with a specific license.">Para projetos de negócios, publicidade e materiais comerciais, mediante licença específica.</p></div>
+        <div><span>03</span><h3 data-pt="Licença especial" data-en="Extended license">Licença especial</h3><p data-pt="Condições personalizadas para necessidades específicas. Consulte disponibilidade." data-en="Custom terms for specific needs. Ask about availability.">Condições personalizadas para necessidades específicas. Consulte disponibilidade.</p></div>
+      </div>
+      <p class="legal-note" data-pt="A disponibilidade de direitos e licenças depende da autoria, das ferramentas utilizadas e dos direitos de terceiros envolvidos. Os termos finais serão informados antes de cada venda." data-en="Available rights and licenses depend on authorship, tools used and any third-party rights involved. Final terms will be provided before each sale.">A disponibilidade de direitos e licenças depende da autoria, das ferramentas utilizadas e dos direitos de terceiros envolvidos. Os termos finais serão informados antes de cada venda.</p>
+    </section>
+
+    <section class="contact" id="contact">
+      <p class="eyebrow" data-pt="FALE CONOSCO" data-en="GET IN TOUCH">FALE CONOSCO</p>
+      <h2 data-pt="Encontrou uma imagem especial?" data-en="Found something special?">Encontrou uma imagem especial?</h2>
+      <p data-pt="Entre em contato para consultar valores, formatos e licenças disponíveis." data-en="Get in touch to ask about pricing, formats and available licenses.">Entre em contato para consultar valores, formatos e licenças disponíveis.</p>
+      <a class="button button-light" href="mailto:SEU_EMAIL_AQUI?subject=Pixel%20Gallery%20-%20Consulta%20de%20obra" id="emailLink" data-pt="Solicitar informações" data-en="Enquire now">Solicitar informações</a>
+      <small data-pt="Configure seu e-mail de atendimento antes de publicar." data-en="Set your contact email before publishing.">Configure seu e-mail de atendimento antes de publicar.</small>
+    </section>
+  </main>
+  <footer><a class="footer-brand" href="#home">PIXEL GALLERY</a><span>© <span id="year"></span> Pixel Gallery. <span data-pt="Todos os direitos reservados." data-en="All rights reserved.">Todos os direitos reservados.</span></span><span>WHERE ART MEETS THE LENS</span></footer>
+
+  <dialog id="inquiryDialog">
+    <button class="close" id="closeDialog" aria-label="Fechar">×</button>
+    <p class="eyebrow">PIXEL GALLERY</p><h2 id="dialogTitle">Obra selecionada</h2><p id="dialogMeta"></p>
+    <p data-pt="Entre em contato por e-mail para consultar preço, formato e licença desta obra." data-en="Email us to ask about the price, format and license for this work.">Entre em contato por e-mail para consultar preço, formato e licença desta obra.</p>
+    <a class="button" id="dialogEmail" href="mailto:SEU_EMAIL_AQUI">Enviar consulta</a>
+  </dialog>
+  <script src="script.js"></script>
+</body>
+</html>
