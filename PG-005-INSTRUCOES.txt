@@ -1,0 +1,51 @@
+PIXEL GALLERY — CADASTRO DA PG-005
+
+1) No GitHub, abra a pasta images e envie pg-005.jpg.
+2) No index.html, dentro da galeria e junto dos outros cards, acrescente este bloco:
+
+<article class="art-card" data-category="photo">
+  <div class="photo-wrap">
+    <img class="art-image real-photo" src="images/pg-005.jpg" alt="Grande formação rochosa à margem de um rio, cercada por vegetação nativa">
+    <span class="photo-watermark">PIXEL GALLERY&nbsp; • &nbsp;PG-005</span>
+  </div>
+  <div class="art-info">
+    <div>
+      <h3>Entre águas e pedras</h3>
+      <p data-pt="Fotografia autoral · Natureza" data-en="Original photography · Nature">Fotografia autoral · Natureza</p>
+    </div>
+    <strong>PG-005</strong>
+  </div>
+  <button class="details" data-item="Entre águas e pedras" data-type="Fotografia autoral" data-code="PG-005" data-pt="Consultar disponibilidade" data-en="Enquire about availability">Consultar disponibilidade</button>
+</article>
+
+3) No final do styles.css, acrescente:
+
+.photo-wrap {
+  position: relative;
+  height: 330px;
+  overflow: hidden;
+}
+.photo-wrap .real-photo {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  padding: 0;
+}
+.photo-watermark {
+  position: absolute;
+  right: 12px;
+  bottom: 12px;
+  z-index: 2;
+  padding: 9px 12px;
+  border-radius: 6px;
+  background: rgba(25, 25, 27, .78);
+  color: #f4eee5;
+  font: 11px "DM Sans", sans-serif;
+  letter-spacing: .5px;
+}
+
+OBSERVAÇÃO:
+A marca-d'água acima aparece sobre a foto no site, sem alterar o arquivo original. Ela não fica gravada no JPEG e não protege uma cópia baixada diretamente. Para uma marca-d'água permanente no arquivo, será necessário editar a imagem em um editor externo.
+
+Atenção: este cadastro foi preparado como instrução. Ainda é necessário enviar o JPEG e inserir o bloco no repositório GitHub para que o Cloudflare publique a atualização.
